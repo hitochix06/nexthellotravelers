@@ -21,7 +21,7 @@ export default function Hero() {
      </div>
     </div>
     <div className="w-full md:w-1/2 px-4 flex justify-center">
-     <img src="./presentation.jpeg" alt="Votre image" />
+     <img src="./presentation.png" alt="Votre image" />
     </div>
    </div>
   </div>

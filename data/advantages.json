@@ -1,6 +1,6 @@
 [
   {
-    "icon": "fa fa-cogs",
+    "icon": "public/sacs.png",
     "title": "Server Components",
     "paragraphe": "Ils permettent de rendre des composants uniquement sur le serveur sans envoyer le code correspondant au clien"
   },

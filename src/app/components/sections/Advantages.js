@@ -1,31 +1,11 @@
+import Advantage from "../Advantage";
+import React from 'react'
 
-
-import React from "react";
-
-export default function Hero() {
+export default function Advantages() {
  return (
-  <div className="container mx-auto">
-   <div className="flex flex-col md:flex-row justify-center">
-    <div className="w-full md:w-1/2 px-20 py-5">
-     <h1 className="font-bold py-4" >  Et si on apprenais à utiliser Next.js?</h1>
-     <p className="text-gray-600">
-      Aujourd'hui on va se servir de Next.js pour récupérer les articles
-      d'un blog Wordpress de votre choix, pour les ajouter à notre site de
-      manière performante, sécurisée et SEO friendly
-     </p>
-     <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-4">
-      <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-       Avantages de Next.js
-      </button>
-      <button className="border border-green-500 hover:border-green-700 text-green-500 hover:text-green-700 font-bold py-2 px-4 rounded">
-       Voir les articles
-      </button>
-     </div>
-    </div>
-    <div className="w-full md:w-1/2 px-4 flex justify-center">
-     <img src="./presentation.jpeg" alt="Votre image" />
-    </div>
-   </div>
+  <div>
+   <Advantage />
+
   </div>
- );
+ )
 }
