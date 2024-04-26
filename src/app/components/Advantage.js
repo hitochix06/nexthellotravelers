@@ -9,7 +9,7 @@ export default function Advantage(props) {
           <img src={props.icon} alt="Icon" className="h-10 w-10 rounded-full mr-4" />
             <h4 className="font-bold py-4">{props.title}</h4>
           </div>
-          <p className="text-gray-600">{props.paragraphe}</p>
+          <p className="text-gray-600 font-bold">{props.paragraphe}</p>
         </div>
       </div>
     </div>
