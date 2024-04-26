@@ -1,32 +1,19 @@
-import Image from "next/image"
-import Link from "next/link"
-import all from "@/utils/all";
+import Article from "../Article";
+import Titlesub from "../Titlesub";
 
-export default async function Article(props) {
+export default async function Articles() {
 
-    const response = await fetch(`${process.env.SCRAP_WP}/wp-json/wp/v2/media/${props.featured_media}`)
-    const image = await response.json();
-    return (
-        <article className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg ${props.classes}`}>
-            <img
-                fill
-                alt={`Image de ${props.title.rendered}`}
-                src={image.source_url}
-                className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="relative bg-gradient-to-t from-gray-900/90 to-gray-900/30 h-full pt-32 sm:pt-48 lg:pt-64">
-                <div className="p-4 sm:p-6 h-full flex flex-col justify-end">
-                    <time dateTime={props.date} className="block text-xs text-white/90">{all.formatDate(props.date)}</time>
 
-                    {/* <Link href={`/article/${props.slug}`} >
-                        <h3 className="mt-0.5 text-lg text-white">{props.title.rendered}</h3>
-
-                        <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-                            {props.excerpt.rendered.replace(/<\/?[^>]+(>|$)/g, "")}
-                        </p>
-                    </Link> */}
-                </div>
-            </div>
-        </article>
-    )
+  return (
+    <div className="mt-36">
+      <Titlesub
+        title="Nos derniers Articles"
+        sub="on est passionné et on adore le montrer, retrouvez tous nos derniers articles!"
+        classes="text-center flex flex-col items-center"
+      />
+      <div className="grid grid-cols-12 gap-8 mt-16 ">
+        
+      </div>
+    </div>
+  );
 }

@@ -4,6 +4,8 @@ import { Navbar } from "./components/sections/Navbar";
 import Hero from "./components/sections/Hero";
 import Advantages from "./components/sections/Advantages";
 import Articles from "./components/sections/Articles";
+import Footer from "./components/sections/Footer";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <Hero />
       <Advantages />
       <Articles />
+      <Footer/>
     </div>
   );
 }
