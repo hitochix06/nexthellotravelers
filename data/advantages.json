@@ -3,12 +3,12 @@
     
     "title": "Server Components",
     "paragraphe": "Ils permettent de rendre des composants uniquement sur le serveur sans envoyer le code correspondant au client",
-    "icon": "sacs.png"
+    "icon": "valise.png"
   },
   {
     "title": "Streaming de données amélioré",
     "paragraphe": "Les utilisateurs peuvent voir le contenu plus rapidement, même si toutes les données n'ont  pas encore été chargées",
-    "icon": "sacs.png"
+    "icon": "streaming.png"
   },
   {
     "title": "Séparation du code",
@@ -18,16 +18,16 @@
   {
     "title": "Optimisation automatique",
     "paragraphe": "Optimisation automatique telle que l'image et la police de lazy loading sans intervention du développeur",
-    "icon": "sacs.png"
+    "icon": "robot.png"
   },
   {
     "title": "Api et middleware",
     "paragraphe": "Support amélioré pour les API et les middleware, permettant au développeurs de gérer plus facilement les requêtes",
-    "icon": "sacs.png"
+    "icon": "api.png"
   },
   {
     "title": "Mise à jour et migration facilitées",
     "paragraphe": "Outil et guides améliorés pour la mise à jour à partir de versions antérieures. Bénéfique pour les développeurs",
-    "icon": "sacs.png"
+    "icon": "utilisateur.png"
   }
 ]
