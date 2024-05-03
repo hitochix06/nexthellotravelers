@@ -10,3 +10,9 @@
     @apply text-3xl md:text-3xl font-bold leading-tight lg:leading-tight sm:leading-tight md:leading-tight sm:text-3xl md:text-3xl lg:text-3xl tracking-tight;
   }
 }
+
+
+/* Ajoutez ceci dans votre fichier CSS global ou spécifique */
+html {
+  scroll-behavior: smooth;
+}
