@@ -8,7 +8,9 @@ export default async function Article(props) {
  const response = await fetch(`https://hellotravelersblog.com/wp-json/wp/v2/media/${props.featured_media}`)
  const image = await response.json();
  return (
-  <article className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg ${props.classes}`}>
+    <article
+    className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg mx-auto max-w-xs sm:max-w-sm md:max-w-md ${props.classes}`}
+  >
    <img
     fill
     alt={`Image de ${props.title.rendered}`}
