@@ -10,10 +10,10 @@ export default async function Article(props) {
     <article
       className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg mx-auto max-w-xs sm:max-w-sm md:max-w-md ${props.classes}`}
     >
-      <img
+      <Image
         fill
         alt={`Image de ${props.title.rendered}`}
-        src={image.source_url}
+        src={image.guid.rendered}
         className="absolute inset-0 h-full w-full object-cover"
       />
 

@@ -1,6 +1,6 @@
 import React from "react";
-
-export default function Hero() {
+import Image from "next/image";
+export default function Hero(props) {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col md:flex-row justify-center">
@@ -14,6 +14,7 @@ export default function Hero() {
             d'un blog Wordpress de votre choix, pour les ajouter à notre site de
             manière performante, sécurisée et SEO friendly
           </p>
+
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-4">
             <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
               Avantages de Next.js
