@@ -16,12 +16,18 @@ export default function Hero(props) {
           </p>
 
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-4">
-            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            <a
+              href="#advantages"
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            >
               Avantages de Next.js
-            </button>
-            <button className="border border-green-500 hover:border-green-700 text-green-500 hover:text-green-700 font-bold py-2 px-4 rounded">
+            </a>
+            <a
+              href="#articles"
+              className="border border-green-500 hover:border-green-700 text-green-500 hover:text-green-700 font-bold py-2 px-4 rounded"
+            >
               Voir les articles
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full md:w-1/2 px-4 flex justify-center">
