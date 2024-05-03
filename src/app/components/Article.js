@@ -8,7 +8,7 @@ export default async function Article(props) {
   const image = await response.json();
   return (
     <article
-      className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg mx-auto max-w-xs sm:max-w-sm md:max-w-md ${props.classes}`}
+      className={`relative overflow-hidden rounded-lg shadow transition hover:shadow-lg mx-auto max-w-xs sm:max-w-sm md:20-w-md ${props.classes} `}
     >
       <Image
         fill
